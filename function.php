@@ -54,7 +54,7 @@ function uniqueId(){
 }
 
 function randDomain(){
-	$arraymail = array('yahoo.com','gmail.com','outlook.com','yahoo.co.id','icloud.com','hotmail.com');
+	$arraymail = array('chalxd.my.id');
 	$datas = array_rand($arraymail, true);
 	return $arraymail[$datas];
 }
